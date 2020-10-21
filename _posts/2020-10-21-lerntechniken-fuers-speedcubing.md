@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Lerntechniken fürs Speedcubing
-subtitle: Speedcubing lernen bedeutet erst einmal zu wissen, wie man überhaupt lernt
+subtitle: Damit du lernst, wie man lernt!
 gh-repo: annikastein/HugaCuba
 gh-badge: [star, fork, follow]
-tags: [lernen,speedcuben,technik,techniken,wissen,speedcubing,lerntechnik,lernmethoden,algorithmen,anfänger,fortgeschrittene,beginner,advanced,]
+tags: [lernen,speedcuben,technik,techniken,wissen,speedcubing,lerntechnik,lernmethoden,algorithmen,anfänger,fortgeschrittene,beginner,advanced,spaced,repetition,verstehen,alg,algs,algos,datenbank,analysieren,vergleichen,fingertricks,muscle,memory,gedächtnis]
 comments: true
 ---
 
@@ -13,10 +13,26 @@ Ob es sich um die ersten Speedcubing-Algorithmen überhaupt handelt, oder ob du 
 Das muss aber eigentlich gar nicht sein, tatsächlich kann dieser Lernprozess sogar Spaß machen!
 
 ## Überblick über nützliche Lerntechniken
+Das Wort Lerntechniken klingt so theoretisch, dabei lassen sie sich einfach in die Praxis übersetzen. Damit du aber nicht nur auf meine Erfahrung, sondern auch auf Fakten vertrauen kannst,
+füge ich an passenden Stellen auch die ein oder andere Notiz hinzu. So bekommst du neben der Anwendung der Techniken direkt auch spannende Links zum Thema!
 
 {: .box-note}
 **Note:** Gleich zu Beginn: dieser Post wird keine Wunder vollbringen (oder gar die Anzahl zu lernender Algorithmen verringern), aber es sollte schon zu einer gewissen Erleichterung führen.
 Du verstehst die Tipps natürlich am besten, wenn du schon ein wenig Erfahrung im Speedcuben hast, aber auch Neueinsteiger werden profitieren.
 
-Das Wort Lerntechniken klingt so theoretisch, dabei lassen sie sich einfach in die Praxis übersetzen. Damit du aber nicht nur auf meine Erfahrung, sondern auch auf Fakten vertrauen kannst,
-füge ich an passenden Stellen auch die ein oder andere Notiz hinzu. So bekommst du neben der Anwendung der Techniken direkt auch spannende Links zum Thema!
+Hier sind die Lerntechniken, die wir uns gleich genauer ansehen werden:
+* In Lernportionen aufteilen und geschickt planen
+* Algorithmen analysieren / vergleichen, Klammern setzen
+* Verstehen, was Algorithmen überhaupt tun
+* Muscle Memory, Fingertricks
+* Lernen zur Routine machen, Non-Zero-Days
+* Spaced Repetition, sinnvoll wiederholen
+* Überprüfen: ist mir das Lernen gelungen?
+  * Kann ich die Cases unterscheiden?
+  * Kann ich die Cases aus beliebigen Positionen erkennen?
+  * Kann ich die Cases auch in Solves anwenden?
+* Neues entdecken:
+  * Algs auf anderen Cubes testen
+  * Sind meine Algs noch gut, oder gibt es heutzutage bessere?
+  * Was passiert, wenn ich den Alg ganz langsam mache?
+
