@@ -38,11 +38,43 @@
           {% endif %}
 
           {% if include.type == "post" %}
-            <span class="post-meta">Gepostet am {{ page.date | date: date_format }}</span>
+            <span class="post-meta">Gepostet am {% assign a = page.date | date: "%-m" %}
+                                                {{ page.date | date: "%-d" }}.
+                                                {% case a %}
+                                                  {% when '1' %}Januar
+                                                  {% when '2' %}Februar
+                                                  {% when '3' %}M&auml;rz
+                                                  {% when '4' %}April
+                                                  {% when '5' %}Mai
+                                                  {% when '6' %}Juni
+                                                  {% when '7' %}Juli
+                                                  {% when '8' %}August
+                                                  {% when '9' %}September
+                                                  {% when '10' %}Oktober
+                                                  {% when '11' %}November
+                                                  {% when '12' %}Dezember
+                                                {% endcase %}
+                                                {{ page.date | date: "%Y" }}</span>
             {% if page.last-updated %}
               <span class="post-meta">
                 <span class="d-none d-md-inline middot">&middot;</span>
-                Letztes Update {{ page.last-updated | date: date_format }}
+                Letztes Update {% assign m = page.last-updated | date: "%-m" %}
+                                {{ page.last-updated | date: "%-d" }}.
+                                {% case m %}
+                                  {% when '1' %}Januar
+                                  {% when '2' %}Februar
+                                  {% when '3' %}M&auml;rz
+                                  {% when '4' %}April
+                                  {% when '5' %}Mai
+                                  {% when '6' %}Juni
+                                  {% when '7' %}Juli
+                                  {% when '8' %}August
+                                  {% when '9' %}September
+                                  {% when '10' %}Oktober
+                                  {% when '11' %}November
+                                  {% when '12' %}Dezember
+                                {% endcase %}
+                                {{ page.last-updated | date: "%Y" }}
               </span>
             {% endif %}
             {% if page.readtime %}
@@ -72,11 +104,43 @@
           {% endif %}
 
           {% if include.type == "post" %}
-            <span class="post-meta">Gepostet am {{ page.date | date: date_format }}</span>
+            <span class="post-meta">Gepostet am {% assign m = page.date | date: "%-m" %}
+                                                {{ page.date | date: "%-d" }}.
+                                                {% case m %}
+                                                  {% when '1' %}Januar
+                                                  {% when '2' %}Februar
+                                                  {% when '3' %}M&auml;rz
+                                                  {% when '4' %}April
+                                                  {% when '5' %}Mai
+                                                  {% when '6' %}Juni
+                                                  {% when '7' %}Juli
+                                                  {% when '8' %}August
+                                                  {% when '9' %}September
+                                                  {% when '10' %}Oktober
+                                                  {% when '11' %}November
+                                                  {% when '12' %}Dezember
+                                                {% endcase %}
+                                                {{ page.date | date: "%Y" }}</span>
             {% if page.last-updated %}
               <span class="post-meta">
                 <span class="d-none d-md-inline middot">&middot;</span>
-                Letztes Update {{ page.last-updated | date: date_format }}
+                Letztes Update {% assign m = page.last-updated | date: "%-m" %}
+                                {{ page.last-updated | date: "%-d" }}.
+                                {% case m %}
+                                  {% when '1' %}Januar
+                                  {% when '2' %}Februar
+                                  {% when '3' %}M&auml;rz
+                                  {% when '4' %}April
+                                  {% when '5' %}Mai
+                                  {% when '6' %}Juni
+                                  {% when '7' %}Juli
+                                  {% when '8' %}August
+                                  {% when '9' %}September
+                                  {% when '10' %}Oktober
+                                  {% when '11' %}November
+                                  {% when '12' %}Dezember
+                                {% endcase %}
+                                {{ page.last-updated | date: "%Y" }}
               </span>
             {% endif %}
             {% if page.readtime %}
