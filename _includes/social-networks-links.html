@@ -12,6 +12,54 @@
   </li>
 {%- endif -%}
 
+{%- if site.social-network-links.youtube -%}
+  <li class="list-inline-item">
+    <a href="https://www.youtube.com/{{ site.social-network-links.youtube }}" title="YouTube">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">YouTube</span>
+   </a>
+  </li>
+{%- endif -%}
+
+{%- if site.social-network-links.instagram -%}
+  <li class="list-inline-item">
+    <a href="https://www.instagram.com/{{ site.social-network-links.instagram }}" title="Instagram">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Instagram</span>
+   </a>
+  </li>
+{%- endif -%}
+
+{%- if site.social-network-links.facebook -%}
+  <li class="list-inline-item">
+    <a href="https://www.facebook.com/{{ site.social-network-links.facebook }}" title="Facebook">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Facebook</span>
+   </a>
+  </li>
+{%- endif -%}
+
+{%- if site.social-network-links.github -%}
+  <li class="list-inline-item">
+    <a href="https://github.com/{{ site.social-network-links.github }}" title="GitHub">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">GitHub</span>
+   </a>
+  </li>
+{%- endif -%}
+
 {%- if site.social-network-links.email -%}
   <li class="list-inline-item">
     <a href="mailto:{{ site.social-network-links.email }}" title="Email me">
@@ -36,18 +84,6 @@
   </li>
 {%- endif -%}
 
-{%- if site.social-network-links.facebook -%}
-  <li class="list-inline-item">
-    <a href="https://www.facebook.com/{{ site.social-network-links.facebook }}" title="Facebook">
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">Facebook</span>
-   </a>
-  </li>
-{%- endif -%}
-
 {%- if site.social-network-links.telegram -%}
   <li class="list-inline-item">
     <a href="https://t.me/{{ site.social-network-links.telegram }}" title="Telegram">
@@ -57,18 +93,6 @@
       </span>
       <span class="sr-only">Telegram</span>
     </a>
-  </li>
-{%- endif -%}
-
-{%- if site.social-network-links.github -%}
-  <li class="list-inline-item">
-    <a href="https://github.com/{{ site.social-network-links.github }}" title="GitHub">
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">GitHub</span>
-   </a>
   </li>
 {%- endif -%}
 
@@ -144,29 +168,6 @@
   </li>
 {%- endif -%}
 
-{%- if site.social-network-links.instagram -%}
-  <li class="list-inline-item">
-    <a href="https://www.instagram.com/{{ site.social-network-links.instagram }}" title="Instagram">
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">Instagram</span>
-   </a>
-  </li>
-{%- endif -%}
-
-{%- if site.social-network-links.youtube -%}
-  <li class="list-inline-item">
-    <a href="https://www.youtube.com/{{ site.social-network-links.youtube }}" title="YouTube">
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">YouTube</span>
-   </a>
-  </li>
-{%- endif -%}
 
 {%- if site.social-network-links.spotify -%}
   <li class="list-inline-item">
