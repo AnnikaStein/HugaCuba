@@ -3,6 +3,7 @@ layout: post
 title: Lerntechniken fürs Speedcubing
 subtitle: Damit du lernst, wie man lernt!
 tags: [lernen,speedcuben,technik,techniken,wissen,speedcubing,lerntechnik,lernmethoden,algorithmen,anfänger,fortgeschrittene,beginner,advanced,spaced,repetition,verstehen,alg,algs,algos,datenbank,analysieren,vergleichen,fingertricks,muscle,memory,gedächtnis]
+readtime: true
 ---
 
 Vom Auswendiglernen zahlreicher Algorithmen wirst du vielleicht öfter mal abgeschreckt.
@@ -19,17 +20,6 @@ Das Wort Lerntechniken klingt so theoretisch, dabei lassen sie sich einfach in d
 Hier sind die Lerntechniken, die wir uns gleich genauer ansehen werden:
 * TOC
 {:toc}
-* In Lernportionen aufteilen und geschickt planen
-* Cases identifizieren: Recognition
-* Algorithmen analysieren / vergleichen, Klammern setzen
-* Spaced Repetition, sinnvoll wiederholen
-* Muscle Memory, Fingertricks
-* Best-Practices und Überprüfen des Gelernten
-  * "Deliberate Practice" und Non-Zero-Days
-  * Kann ich die Cases aus beliebigen Positionen erkennen?
-  * Kann ich die Cases auch in Solves anwenden?
-  * Algs auf anderen Cubes testen
-  * Sind meine Algs noch gut, oder gibt es heutzutage bessere?
 
 ## In Lernportionen aufteilen und geschickt planen
 
@@ -48,7 +38,7 @@ Was ich dir hier zeigen möchte, ist ein gesunder Mittelweg zwischen Unter- und 
 
 Es klingt eigentlich ganz logisch, die vielen Algorithmen eines Sets (oder gar mehrerer, falls du parallel etwas weiteres lernst) in bestimmte Teile zu gruppieren, die du dann bestimmten Wochen und Tagen zuordnest. Eine grobe Einteilung ergibt sich sicherlich aus den Bezeichnungen ganzer Gruppen von Cases, die sich im Aussehen ähnlich sind. Dabei würdest du bei der gleich folgenden weiteren Differenzierung erst mit neuen Gruppen beginnen, wenn die vorherige fertig ist. Du kannst ja mal klein anfangen, und legst pro Tag einen Algorithmus bzw. einen Fall fest, den du lernen möchtest. Und das ziehst du dann kontinuierlich so durch. Heißt, wir kämen beim Beispiel OLLs auf 57 Tage, in denen du durchhalten musst.
 
-#### Gibt es denn noch andere Strategien, die Algorithmen aufzuteilen, und falls ja, wird es dadurch schwieriger?
+#### Strategien, um große Sets aufzuteilen
 
 Wenn ich meine persönlichen Routinen ansehe, dann lande ich nie bei einem Algorithmus pro Tag. Stattdessen werde ich, wenn ich mich gerade in einer solchen Lernphase befinde, immer auch dazu passende Algorithmen lernen, falls mein Gedächtnis mitspielt. Der Grund für die Erhöhung der Algorithmenanzahl pro Tag ist folgender: es gibt auch unter den vielen verschiedenen Cases immer welche, die sich sehr ähnlich sind. Angefangen dabei, dass sie einer Gruppe angehören (übergeordnete Merkmale, die alle Gruppenmitglieder bezogen auf die Recognition erfüllen), aber auch, wenn Bestandteile des Algs ähnlich oder verwandt sind. Gibt es in der Lösung der Cases ähnliche Merkmale, dann bedeutet ein minimaler Mehraufwand am Tag X einen doppelten "Lernertrag". Klingt doch ganz gut! Aber auch, wenn die Algs nicht aufgrund der verwendeten Moves zueinander gehören, sondern, wenn die Muster ähnlich sind (gespiegelt zum Beispiel), dann lohnt sich das Erlernen des "Partners" am selben Tag. Das macht nicht deshalb Sinn, weil sie sich leichter lernen lassen, sondern weil du in der Recognition schon früher entscheiden kannst, ob du den Case bereits gelernt hast, oder nicht. Greifen wir mal alternativ das Beispiel PLLs auf, dann wärst du definitiv gut beraten, an einem Tag beide R-Perms zu lernen, auch wenn die Algs nicht zu den einfachsten zählen. Denn immer dann, wenn du im Prozess der Recognition auf einen R-Perm stößt (noch bevor du genau weißt, welcher der beiden R-Perms) wird dein Gehirn melden:
 
